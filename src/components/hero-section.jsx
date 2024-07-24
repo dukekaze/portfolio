@@ -39,13 +39,18 @@ const Hero = () => {
               <FiGithub />
               <FaTwitter />
               <IoLogoFigma />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
           </div>
         </div>
       </div>
-      <div className="persona flex justify-end mr-96">
-        <img className="relative" src="/images/zurag.png" alt="" />
-        <img className="relative" src="/images/zurag-ar.png" alt="" />
+      <div className="persona flex justify-end">
+        <img className="relative object-cover bg-center w-72 h-80 " src="/images/zurag.png" alt="" />
+        <img className="absolute  w-72 h-80" src="/images/zurag-ar.png" alt="" />
       </div>
     </div>
   );
